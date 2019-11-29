@@ -3,14 +3,15 @@ title: WikiJhow
 subtitle:
 description: Uma Wiki para todas as coisas Jhow, sejam elas scripts para jogos, receitas de café, receitas para IAs destruidoras de seres baseados em carbono e até mesmo anotações para eu não esquecer depois
 keywords:
-author: Jonathan Santos
+author: Jhow
 language: pt
-timezone:
+timezone: America/Sao_Paulo
 
 # URL
 url: jonathan-santos.github.io
+repo: github.com/jonathan-santos/wikijhow-project
 root: /wikijhow
-permalink: /:title/
+permalink: :lang/:title/
 permalink_defaults:
 
 # Directory
@@ -24,13 +25,13 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: :lang/:title.md
 default_layout: post
-titlecase: false # Transform title into titlecase
-external_link: true # Open external links in new tab
-filename_case: 0
+titlecase: false
+external_link: true
+filename_case: 1
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -40,9 +41,6 @@ highlight:
   tab_replace:
   
 # Home page setting
-# path: Root path for your blogs index page. (default = '')
-# per_page: Posts displayed per page. (0 = disable pagination)
-# order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
   per_page: 10
@@ -54,10 +52,7 @@ category_map:
 tag_map:
 
 # Date / Time format
-## Hexo uses Moment.js to parse and display date
-## You can customize the date format as defined in
-## http://momentjs.com/docs/#/displaying/format/
-date_format: DD-MM-YYYY
+date_format: DD/MM/YYYY
 time_format: HH:mm:ss
 
 # Pagination
@@ -74,9 +69,4 @@ deploy:
   repo: https://github.com/jonathan-santos/wikiJhow
   branch: master
 
-# Custom
-## Colors
-primaryColor: '#ff2d9a'
-secondaryColor: '#1a2a3a'
-textLightColor: '#eee'
-textDarkColor: '#333'
+footerText: Wiki feita com HTML, CSS, <a href='https://hexo.io' target='_blank'>Hexo</a>, <i class="icon-heart"></i> e pipoca com café

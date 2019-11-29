@@ -1,10 +1,10 @@
 # Site
 title: WikiJhow
 subtitle:
-description:
+description: Uma Wiki para todas as coisas Jhow, sejam elas scripts para jogos, receitas de café, receitas para IAs destruidoras de seres baseados em carbono e até mesmo anotações para eu não esquecer depois
 keywords:
 author: Jonathan Santos
-language: pt-BR
+language: pt
 timezone:
 
 # URL
@@ -66,7 +66,7 @@ per_page: 10
 pagination_dir: page
 
 # Extensions
-theme: jhow
+theme: jhow-theme
 
 # Deployment
 deploy:

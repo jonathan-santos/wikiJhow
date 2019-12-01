@@ -1,9 +1,9 @@
 {
   "name": "wikijhow",
-  "version": "0.0.1",
+  "version": "0.3",
   "scripts": {
     "start": "hexo serve --dev --open",
-    "publish": "hexo deploy"
+    "deploy": "hexo generate && hexo deploy"
   },
   "hexo": {
     "version": "3.9.0"

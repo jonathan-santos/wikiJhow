@@ -9,7 +9,7 @@ timezone: America/Sao_Paulo
 
 # URL
 url: jonathan-santos.github.io
-repo: github.com/jonathan-santos/wikijhow-project
+repo: https://github.com/jonathan-santos/wikijhow-project
 root: /wikijhow
 permalink: :lang/:title/
 permalink_defaults:

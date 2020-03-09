@@ -1,3 +1,9 @@
 [submodule "jhow-theme"]
 	path = themes/jhow-theme
 	url = https://github.com/jonathan-santos/hexo-jhow-theme
+[submodule "hexo-jhow-theme"]
+	path = hexo-jhow-theme
+	url = https://github.com/jonathan-santos/hexo-jhow-theme
+[submodule "themes/hexo-jhow-theme"]
+	path = themes/hexo-jhow-theme
+	url = https://github.com/jonathan-santos/hexo-jhow-theme

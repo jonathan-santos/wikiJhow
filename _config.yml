@@ -8,7 +8,7 @@ language: pt
 timezone: America/Sao_Paulo
 
 # URL
-url: wiki.jhow.io
+url: https://wiki.jhow.io
 repo: https://github.com/jonathan-santos/wikijhow
 root: /
 permalink: :lang/:title/

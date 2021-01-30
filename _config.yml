@@ -55,5 +55,4 @@ theme: hexo-jhow-theme
 theme_config:
   wikiMode: true
   noFaq: true
-  primaryColor: '#8be9fd'
-  secondaryColor: '#ff2d9a'
+  primaryColor: '#0074D9'

@@ -31,16 +31,9 @@ render_drafts: false
 post_asset_folder: true
 relative_link: false
 future: true
-highlight:
-  enable: true
-  line_number: true
-  auto_detect: false
-  tab_replace:
   
 # Category & Tag
 default_category: uncategorized
-category_map:
-tag_map:
 
 # Date / Time format
 date_format: DD/MM/YYYY
@@ -48,6 +41,14 @@ time_format: HH:mm:ss
 
 # Pagination
 per_page: 0
+
+# Syntax Highlighting
+highlight:
+  enable: false
+prismjs:
+  enable: true
+  preprocess: true
+  line_number: true
 
 # Extensions
 theme: hexo-jhow-theme

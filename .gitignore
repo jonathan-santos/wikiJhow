@@ -5,7 +5,8 @@ db.json
 node_modules/
 public/
 .deploy*/
-source/_posts/*
+source/_posts
+source/assets
 !source/_posts/test.md
 # Local Netlify folder
 # Local Netlify folder

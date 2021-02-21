@@ -10,7 +10,6 @@ url: https://wiki.jhow.io
 repo: https://github.com/jonathan-santos/wikijhow
 root: /
 permalink: :lang/:title/
-permalink_defaults:
 
 # Directory
 source_dir: source
@@ -18,7 +17,6 @@ public_dir: public
 tag_dir: tags
 category_dir: categories
 i18n_dir: :lang
-skip_render:
 
 # Writing
 new_post_name: :lang/:title.md
@@ -28,7 +26,7 @@ external_link:
   enable: true
 filename_case: 1
 render_drafts: false
-post_asset_folder: true
+post_asset_folder: false
 relative_link: false
 future: true
   
@@ -48,7 +46,7 @@ highlight:
 prismjs:
   enable: true
   preprocess: true
-  line_number: true
+  line_number: false
 
 # Extensions
 theme: hexo-jhow-theme
